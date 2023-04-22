@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+  background: url(img/bg2.jpg) center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+h1 {
+  margin-top: 150px;
+  color: white;
+}
+.quiz-container {
+  background-color: #dbd8d8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 93, 154, 0.1);
+  width: 600px;
+  margin-bottom: 20rem;
+}
+
+.quiz-header {
+  padding: 2rem 4rem;
+}
+
+h2 {
+  padding: 0 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+.submit {
+  border: none;
+  background-color: #1d4a84;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+#submit:focus {
+  background-color: #be00e9;
+  outline: none;
+}
+#submit:focus:after {
+  content: ", Son Kararım 👍";
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  display: none;
+}
+
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 1.7rem;
+  cursor: pointer;
+}
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid white;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3.3px;
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: #be00e9;
+  border-radius: 100%;
+  transition: all 0.2s ease;
+}
+
+[type="radio"]:checked + label:after {
+  opacity: 1;
+}
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+}
