@@ -6,5 +6,5 @@
     <li>CSS3</li>
     <li>JAVASCRIPT</li>
 </ul>
-<a href="">preview</a><br><br>
+<a href="https://millionairequizzapp.netlify.app/">preview</a><br><br>
 <img src="quizApp.gif" alt="">
