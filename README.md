@@ -7,4 +7,4 @@
     <li>JAVASCRIPT</li>
 </ul>
 <a href="https://millionairequizzapp.netlify.app/">preview</a><br><br>
-<img src="quizApp.gif" alt="">
+<img src="millionaire2.gif" alt="">
