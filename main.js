@@ -1,7 +1,7 @@
 const quizData = [
   {
     question: "What is the capital of Türkiye",
-    a: "Istanbul",
+    a: "Ankara",
     b: "Washington",
     c: "Berlin",
     d: "Moscow",
@@ -9,7 +9,7 @@ const quizData = [
   },
   {
     question: "What is the capital of the USA",
-    a: "Istanbul",
+    a: "Ankara",
     b: "Washington",
     c: "Berlin",
     d: "Moscow",
@@ -17,7 +17,7 @@ const quizData = [
   },
   {
     question: "What is the capital of Germany",
-    a: "Istanbul",
+    a: "Ankara",
     b: "Washington",
     c: "Berlin",
     d: "Moscow",
@@ -25,7 +25,7 @@ const quizData = [
   },
   {
     question: "What is the capital of Russia",
-    a: "Istanbul",
+    a: "Ankara",
     b: "Washington",
     c: "Berlin",
     d: "Moscow",
